@@ -55,6 +55,7 @@ nav {
 .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
     
 }
 
@@ -146,16 +147,46 @@ background-color: rgb(98, 60, 151);
 /* Slider Price */
 .sliderItem:nth-child(1) .sliderPrice {
     color: rgb(136, 26, 114);
-  }
+}
   .sliderItem:nth-child(2) .sliderPrice {
     color: rgb(113, 195, 110);
-  }
+}
   .sliderItem:nth-child(3) .sliderPrice {
     color: rgb(159, 62, 106);
-  }
+}
   .sliderItem:nth-child(4) .sliderPrice {
     color: rgb(98, 60, 151);
-  }
+}
   .sliderItem:nth-child(5) .sliderPrice {
     color: rgb(219, 173, 113);
-  }
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.featureTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.featureDesc {
+    color: gray;
+    width: 50%;
+}
