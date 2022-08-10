@@ -54,13 +54,14 @@ nav {
 
 .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     
 }
 
 .sliderWrapper {
     display: flex;
     width: 500vw;
+    transition: all 1s ease-in-out;
 }
 
 .sliderItem {
@@ -137,3 +138,24 @@ background-color: rgb(159, 62, 106);
 .sliderItem:nth-child(4) .sliderBg{
 background-color: rgb(98, 60, 151);
 }
+
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: rgb(219, 173, 113);
+    }
+
+/* Slider Price */
+.sliderItem:nth-child(1) .sliderPrice {
+    color: rgb(136, 26, 114);
+  }
+  .sliderItem:nth-child(2) .sliderPrice {
+    color: rgb(113, 195, 110);
+  }
+  .sliderItem:nth-child(3) .sliderPrice {
+    color: rgb(159, 62, 106);
+  }
+  .sliderItem:nth-child(4) .sliderPrice {
+    color: rgb(98, 60, 151);
+  }
+  .sliderItem:nth-child(5) .sliderPrice {
+    color: rgb(219, 173, 113);
+  }
