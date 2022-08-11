@@ -35,7 +35,7 @@ nav {
 
 .limitedOffer {
     font-size: 20px;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid rgb(210, 144, 118);
     cursor: pointer;
 }
 
@@ -53,7 +53,7 @@ nav {
 }
 
 .slider {
-    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    background: url("https://images.wallpaperscraft.com/image/single/pebbles_stones_black_144176_1280x720.jpg");
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     overflow: hidden;
     
@@ -83,6 +83,7 @@ nav {
 
 .sliderImg{
     z-index: 1;
+    
 }
 
 .sliderTitle {
@@ -125,40 +126,40 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg{
-background-color: rgb(136, 26, 114);
+background-color: rgb(111, 144, 149);
 }
 
 .sliderItem:nth-child(2) .sliderBg{
-background-color: rgb(113, 195, 110);
+background-color: rgb(203, 162, 139);
 }
 
 .sliderItem:nth-child(3) .sliderBg{
-background-color: rgb(159, 62, 106);
+background-color: rgb(74, 92, 118);
 }
 
 .sliderItem:nth-child(4) .sliderBg{
-background-color: rgb(98, 60, 151);
+background-color: rgb(141, 170, 140);
 }
 
 .sliderItem:nth-child(5) .sliderBg{
-    background-color: rgb(219, 173, 113);
+    background-color: rgb(177, 158, 141);
     }
 
 /* Slider Price */
 .sliderItem:nth-child(1) .sliderPrice {
-    color: rgb(136, 26, 114);
+    color: rgb(111, 144, 149);
 }
   .sliderItem:nth-child(2) .sliderPrice {
-    color: rgb(113, 195, 110);
+    color: rgb(203, 162, 139);
 }
   .sliderItem:nth-child(3) .sliderPrice {
-    color: rgb(159, 62, 106);
+    color: rgb(74, 92, 118);
 }
   .sliderItem:nth-child(4) .sliderPrice {
-    color: rgb(98, 60, 151);
+    color: rgb(141, 170, 140);
 }
   .sliderItem:nth-child(5) .sliderPrice {
-    color: rgb(219, 173, 113);
+    color: rgb(177, 158, 141);
 }
 
 .features {
@@ -189,4 +190,73 @@ background-color: rgb(98, 60, 151);
 .featureDesc {
     color: gray;
     width: 50%;
+}
+
+.product {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.productImg {
+    width: 50%;
+}
+
+.productDetails {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+}
+
+.productTitle {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.productDesc {
+    font-style: 24px;
+    color: gray;
+}
+
+.colors,.sizes{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color:last-child{
+    background-color: darkblue;
+}
+
+.size{
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.productButton {
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.productButton:hover {
+    background-color: whitesmoke;
+    color: black;
 }
