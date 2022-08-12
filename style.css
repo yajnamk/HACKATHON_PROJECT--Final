@@ -579,6 +579,16 @@ footer {
         flex-wrap: wrap;
         z-index: 10001;
       }
+
+      .sliderPrice{
+        font-size: 35px;
+        margin-top: 160px;
+      }
+
+      .buyButton{
+        font-size: 20px;
+        
+      }
     
         .search{
             display: none;
@@ -718,7 +728,7 @@ footer {
 
     
         .wrapper {
-        margin-left: -0px;
+        margin-left: 200px;
         font-size: 25px;
         text-align: center;
         font-weight: bolder;

@@ -1,6 +1,8 @@
 const wrapper = document.querySelector(".sliderWrapper")
 const menuItems = document.querySelectorAll(".menuItem")
 
+
+// Buy In section
 const products = [
     {
       id: 1,
@@ -79,6 +81,8 @@ const products = [
     },
   ];
 
+// Slider
+
 let choosenProduct=products[0]
 
 const currentProductImg = document.querySelector(".productImg")
@@ -113,18 +117,20 @@ currentProductColors.forEach((color, index) => {
     });
   });
 
+  // Cross for payment box
   currentProductSizes.forEach((size, index)=>{
     size.addEventListener("click", ()=>{
         currentProductSizes.forEach(size=>{
             size.style. backgroundColor = "white"
             size.style.color = "black"
         })
+
         size.style. backgroundColor = "black"
         size.style.color = "white"
     })
   })
 
-
+// Payment Box
   const productButton = document.querySelector(".productButton");
   const payment = document.querySelector(".payment");
   const close = document.querySelector(".close");
